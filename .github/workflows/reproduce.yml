@@ -11,7 +11,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - run: cd build_linux; ./main
-    - run: cd build_js; node .\main.js
+    - run: cd build_js; node ./main.js
 
   windows:
     runs-on: windows-latest
